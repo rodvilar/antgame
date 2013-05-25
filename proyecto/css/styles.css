@@ -1,0 +1,44 @@
+@font-face {
+    font-family: Flubber;
+    src: url(../font/FLUBBER_.TTF);
+    font-weight:400;
+}
+
+#splash {
+    width:320px;
+    height: 480px;
+    border: 1px solid black;
+    margin-left: auto;  
+    margin-right: auto; 
+}
+
+.fancytext {
+    font-family: Flubber, Helvetica, Arial, sans-serif;
+    color:green;
+}
+
+body {  
+    margin:0px;  
+    padding:0px;  
+    text-align:center;  
+}  
+
+canvas{  
+    outline:0;  
+    border:1px solid #000;  
+    margin-left: auto;  
+    margin-right: auto;  
+    background-image: url(../images/pasto.jpg);
+    background-repeat: repeat;
+}  
+
+.button {
+    color:white;
+    background-color: green;
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    font-size: 35px;
+    padding-top: 5px;
+    cursor: pointer;
+}
